@@ -46,7 +46,33 @@ header .logo {
 header .logo-svg {
   color: var(--clr-white);
 }
+/* ! SEARCH */
+.search {
+  background-color: var(--clr-gray);
+  color: var(--clr-black);
+}
+
+.search .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 20%;
+}
+
+.search h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+}
 
 .card img {
   width: 64px;
+}
+
+.search input[type="text"] {
+  padding: 1rem;
+  height: 2rem;
+  border: 1px black solid;
+  border-radius: 2.4px;
 }
