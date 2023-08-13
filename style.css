@@ -21,6 +21,12 @@ body {
   align-items: stretch;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -96,4 +102,16 @@ header .logo-svg {
   flex-shrink: 0;
   width: 64px;
   height: 64px;
+}
+
+footer {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  height: 400px;
+}
+
+footer .container {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
 }
