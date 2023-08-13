@@ -18,10 +18,12 @@ body {
   color: var(--clr-black);
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 
 .container {
   max-width: 1400px;
+  margin: 0 auto;
 }
 
 header {
