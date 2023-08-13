@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 :root {
   --clr-blue: #4c5fd5;
@@ -15,6 +15,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   color: var(--clr-black);
   display: flex;
   flex-direction: column;
@@ -104,6 +105,8 @@ header .logo-svg {
   height: 64px;
 }
 
+/* ! FOOTER */
+
 footer {
   background-color: var(--clr-black);
   color: var(--clr-white);
@@ -111,7 +114,27 @@ footer {
 }
 
 footer .container {
-  padding: 1rem;
+  padding: 2rem 1rem;
   display: flex;
   justify-content: space-around;
+}
+
+footer ul {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+}
+
+footer li {
+  line-height: 1.5;
+}
+
+footer .container div:last-child {
+  align-self: flex-end;
+}
+
+/* ! utility */
+
+/* not using strong outside of paragraphs, screen reader */
+.bold {
+  font-weight: 500;
 }
