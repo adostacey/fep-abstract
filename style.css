@@ -66,13 +66,32 @@ header .logo-svg {
   text-align: center;
 }
 
-.card img {
-  width: 64px;
-}
-
 .search input[type="text"] {
   padding: 1rem;
   height: 2rem;
   border: 1px black solid;
   border-radius: 2.4px;
+}
+
+.cards {
+  border: 1px solid red;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid greenyellow;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-basis: 500px;
+}
+
+.card img {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
 }
