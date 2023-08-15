@@ -3,6 +3,7 @@
 :root {
   --clr-blue: #4c5fd5;
   --clr-gray: #dadbf1;
+  --clr-purple: #4c5fd5;
   --clr-black: #000;
   --clr-white: #fff;
 }
@@ -20,6 +21,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+p {
+  margin-bottom: 1rem;
 }
 
 ul {
@@ -83,19 +91,19 @@ header .logo-svg {
 }
 
 .cards {
-  border: 1px solid red;
-  padding: 2rem 3rem;
+  /* border: 1px solid red; */
+  padding: 10rem 3rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .card {
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   padding: 0.5rem;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   flex-basis: 500px;
 }
 
@@ -103,6 +111,15 @@ header .logo-svg {
   flex-shrink: 0;
   width: 64px;
   height: 64px;
+}
+
+.card a {
+  color: var(--clr-purple);
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
 
 /* ! FOOTER */
