@@ -99,21 +99,27 @@ header .logo-svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem 20%;
+  padding: 7rem 20%;
 }
 
 .search h1 {
-  margin-bottom: 1rem;
-  font-size: 3rem;
-  font-weight: 300;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 400;
   text-align: center;
 }
 
 .search input[type="text"] {
-  padding: 1rem;
+  padding: 2rem 1rem;
   height: 2rem;
+  font-size: 1.25rem;
   border: 1px black solid;
   border-radius: 2.4px;
+}
+
+::placeholder {
+  color: var(--clr-black);
+  opacity: 1;
 }
 
 .cards {
